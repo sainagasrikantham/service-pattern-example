@@ -1,8 +1,8 @@
-const userDb = require('../repo/index');
+const userRepo = require('../repo/index');
 
 const getAllUsers = async () => {
     console.log('Service: Fetching all users from the database');
-    return await userDb.getAllUsers();
+    return await userRepo.getAllUsers();
 }
 
 module.exports = {
