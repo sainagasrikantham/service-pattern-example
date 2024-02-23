@@ -1,4 +1,4 @@
-const userRepo = require('../repo/index');
+const userRepo = require('../repository/index');
 
 const getAllUsers = async () => {
     console.log('Service: Fetching all users from the database');

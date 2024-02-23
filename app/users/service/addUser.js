@@ -1,4 +1,4 @@
-const userRepo = require('../repo/index');
+const userRepo = require('../repository/index');
 
 const addUser = async (user) => {
     // Calling the database function with dot notation
